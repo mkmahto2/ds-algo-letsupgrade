@@ -104,7 +104,7 @@ Asymptotic notation:
 Linear time complexity: 
          If the time taken depends on input , then it is called linear time complexity. It is referred as   O(n) . 
 
- #### Example: 
+ ### Example: 
 ~~~
 for(i=1;i<=n;i++) 
    printf("Letsupgrade"); 
@@ -121,7 +121,7 @@ Quadratic Time complexity:
 
           If the time taken depends on the square of the input  then it is said to be quadratic  time complexity. It is denoted by O(n^2). 
 
- #### Example: 
+ ### Example: 
 ~~~
 for(i=1;i<=n;i++) 
    for(j=1;j<=n;j++) 
@@ -131,7 +131,7 @@ Logarithmic Time Complexity:
 
          An algorithm is said to have a logarithmic time complexity when it reduces the size of input   data in each step. This indicates that the number of operations is not the same as the input size. The number of operations gets reduced as the input size increases. It is denoted  by O(logn). 
 
-         ####  Example: 
+#### Example: 
 ~~~
 for(i=1;i<=n;i*=2) 
    printf("hi"); 
