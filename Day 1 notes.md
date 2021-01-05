@@ -104,7 +104,7 @@ Asymptotic notation:
 Linear time complexity: 
          If the time taken depends on input , then it is called linear time complexity. It is referred as   O(n) . 
 
- ### Example: 
+### Example: 
 ~~~
 for(i=1;i<=n;i++) 
    printf("Letsupgrade"); 
@@ -112,7 +112,7 @@ for(i=1;i<=n;i++)
 Constant time complexity: 
            If a time taken by the line of code is known then it is called constant time complexity. It is denoted by O(c). 
 
-#### Example: 
+### Example: 
 ~~~
 for(i=1;i<=100;i++) 
     printf("Letsupgrade"); 
@@ -121,7 +121,7 @@ Quadratic Time complexity:
 
           If the time taken depends on the square of the input  then it is said to be quadratic  time complexity. It is denoted by O(n^2). 
 
- ### Example: 
+### Example: 
 ~~~
 for(i=1;i<=n;i++) 
    for(j=1;j<=n;j++) 
